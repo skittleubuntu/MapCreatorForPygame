@@ -17,3 +17,15 @@ class Colors:
     PURPLE      = (128, 0, 128)
     PINK        = (255, 105, 180)
     BROWN       = (139, 69, 19)
+
+
+
+class StateMent:
+    ORIGINAL = 1
+
+
+class Settings:
+    def __init__(self):
+        self.statement: StateMent = StateMent.ORIGINAL
+
+

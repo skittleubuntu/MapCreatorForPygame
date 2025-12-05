@@ -18,6 +18,7 @@ class GUI:
         for text in self.texts:
             text.draw(screen)
 
+
     def check_buttons(self):
         mx, my = pygame.mouse.get_pos()
         pressed = pygame.mouse.get_pressed()[0]

@@ -2,6 +2,9 @@ import sys
 from gui import *
 import pygame
 
+
+
+from settings import *
 pygame.init()
 
 
@@ -10,6 +13,9 @@ class App:
         self.screen = pygame.display.set_mode((1200,700))
         self.clock = pygame.time.Clock()
         self.GUI = GUI()
+        self.settings = Settings()
+
+
 
 
 
